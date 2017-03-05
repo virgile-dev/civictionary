@@ -4,7 +4,7 @@
       <div class="well_list-nav">
 
           {% include projet-modal.html %}
-           <li><h4><a href="{{ site.baseurl }}/projets/">Définitions</a></h4></li>
+           <li><h4><a href="{{ site.baseurl }}">Définitions</a></h4></li>
 
 
 
@@ -16,7 +16,7 @@
         {% assign sortedposts = posts | split: '|' | sort %}
         {% for post in sortedposts %}
             {% assign postitems = post | split: '#' %}
-            <li><a href="{{  postitems[1]  }}">{{  postitems[0]  }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{  postitems[1]  }}">{{  postitems[0]  }}</a></li>
         {% endfor %}
 
       </ul>
