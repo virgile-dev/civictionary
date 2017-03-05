@@ -11,7 +11,7 @@ email: virgile.deville@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Petit précis de langage à l'usage des néophytes de la Civic Tech.
 baseurl: "/Civictionnary" # the subpath of your site, e.g. /blog
-url: "https://virgile-dev.github.io/civictionnary/" # the base hostname & protocol for your site
+url: "https://virgile-dev.github.io/" # the base hostname & protocol for your site
 twitter_username:
 github_username:
 gems: [jekyll-paginate, jekyll-admin]
