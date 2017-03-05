@@ -79,7 +79,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #4996EC;
+    color: #D7D7D7;
   text-decoration: none;
 }
 
@@ -231,7 +231,7 @@ border-radius: 10px;
 }
 .text_card p {
 font-weight: 500;
-font-size:19px; 
+font-size:19px;
 color:#fff;
 }
 @media (max-width:550px){
@@ -311,15 +311,11 @@ max-width: 70%;
   list-style: none;
 }
 .recherche {
-  margin-top:-214px;
-  margin-left: 30px;
+  /*margin-left: 30px;*/
   margin-right:-25px;
 }
-@media(min-width: 1200px){
-.recherche {
-margin-top:-190px;
-  }
-}
+
+
 .center-title {
 font-size:28px;
 font-weight:900;
@@ -424,7 +420,7 @@ font-size: 25px;
 .punchline-bottom h2{
   margin-top:-670px;
   margin-bottom:-50px;
-  } 
+  }
 }
 h2 a{
   color:#444;

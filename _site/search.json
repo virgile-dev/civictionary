@@ -1,179 +1,99 @@
 [
   
     {
-      "title"     : "Mémoire vive / Elephant (working title)",
-      "url"       : "/m-moire-vive-elephant-working-title",
+      "title"     : "Open Washing",
+      "url"       : "/open_washing",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Empowering students",
-      "url"       : "/empowering_students",
+      "title"     : "Open Source",
+      "url"       : "/open_source",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Impacty",
-      "url"       : "/Impacty",
+      "title"     : "Lanceur alerte",
+      "url"       : "/lanceur-alerte",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Expédition Open Data «semaine pour les parlements ouverts»",
-      "url"       : "/exploitation_de_donnees_parlementaires",
+      "title"     : "Hackathon",
+      "url"       : "/hackathon",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Exerçons notre droit de pétitions !",
-      "url"       : "/exigeons_droit_petitions",
-      "thumbnail" : "/img/projets/pouraix.png"
-    } ,
-  
-    {
-      "title"     : "LaPrimaire.org",
-      "url"       : "/laprimaire-org",
-      "thumbnail" : "/img/projets/laprimaire-logo.png"
-    } ,
-  
-    {
-      "title"     : "e-Participate comme vecteur d&#39;amélioration (construction, d&#39;évolution) de la Démocratie en Afrique.",
-      "url"       : "/democratie_en_afrique",
+      "title"     : "Gouvernement ouvert",
+      "url"       : "/gouvernement_ouvert",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "DemocracyBox",
-      "url"       : "/democracy_box",
-      "thumbnail" : "/img/projets/democracybox.jpg"
-    } ,
-  
-    {
-      "title"     : "Débapédia, une encyclopédie de débats",
-      "url"       : "/debapedia",
-      "thumbnail" : "/img/projets/banniere-debapedia.jpg"
-    } ,
-  
-    {
-      "title"     : "theactivist.eu",
-      "url"       : "/theactivist-eu",
-      "thumbnail" : "/img/projets/theactivist_eu.png"
-    } ,
-  
-    {
-      "title"     : "Donne ta voix",
-      "url"       : "/donne_ta_voix",
-      "thumbnail" : "/img/projets/Bandeau-DTV.jpg"
-    } ,
-  
-    {
-      "title"     : "Accropolis",
-      "url"       : "/accropolis",
-      "thumbnail" : "/img/projets/accropolis.png"
-    } ,
-  
-    {
-      "title"     : "Nova-Ideo ",
-      "url"       : "/Nova-Ideo",
-      "thumbnail" : "/img/projets/nova-ideo.png"
-    } ,
-  
-    {
-      "title"     : "OpenBudget.fr",
-      "url"       : "/openbudget",
-      "thumbnail" : "/img/projets/openbudget.jpg"
-    } ,
-  
-    {
-      "title"     : "Usages associés: boîte à outils open gov",
-      "url"       : "/usages-associes",
-      "thumbnail" : "/img/projets/usages.jpg"
-    } ,
-  
-    {
-      "title"     : "Boîte à outils open gov",
-      "url"       : "/toolbox",
-      "thumbnail" : "/img/projets/toolbox.png"
-    } ,
-  
-    {
-      "title"     : "Politique de contribution aux logiciels libres dans l’administration",
-      "url"       : "/politique-de-contribution",
-      "thumbnail" : "/img/projets/logadmin.jpg"
-    } ,
-  
-    {
-      "title"     : "DroitDirect.fr",
-      "url"       : "/droitdirect",
-      "thumbnail" : "/img/projets/droitdirect.jpg"
-    } ,
-  
-    {
-      "title"     : "Design et démocratie",
-      "url"       : "/design",
+      "title"     : "Démocratie Participative",
+      "url"       : "/democratie_participative",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "AgoraLabTV",
-      "url"       : "/agoralabtv",
-      "thumbnail" : "/img/projets/agoralabtv.jpg"
-    } ,
-  
-    {
-      "title"     : "Grandma&#39; Votation",
-      "url"       : "/votation",
+      "title"     : "Démocratie liquide",
+      "url"       : "/democratie_liquide",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Nuances",
-      "url"       : "/nuances",
+      "title"     : "Démocratie",
+      "url"       : "/democratie",
       "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "A Project Has No Name",
-      "url"       : "/noname",
-      "thumbnail" : "/img/projets/noname.jpg"
+      "title"     : "Débat public",
+      "url"       : "/debat_public",
+      "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "MAVOIX",
-      "url"       : "/mavoix",
-      "thumbnail" : "/img/projets/mavoix.jpeg"
+      "title"     : "Concertation",
+      "url"       : "/concertation",
+      "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Charte éthique en matière d&#39;outils numériques pour la confiance dans un gouvernement ouvert et participatif",
-      "url"       : "/charte",
-      "thumbnail" : "/img/projets/charte.jpg"
+      "title"     : "Communs",
+      "url"       : "/communs",
+      "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Assembl",
-      "url"       : "/assembl",
-      "thumbnail" : "/img/projets/assembl.png"
+      "title"     : "Community organizing",
+      "url"       : "/community_organizing",
+      "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Civic Test",
-      "url"       : "/Civictest",
-      "thumbnail" : "/img/projets/civictest.jpg"
+      "title"     : "Civic Tech",
+      "url"       : "/civic_tech",
+      "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "Blockchain &amp; Démocratie",
-      "url"       : "/Blockchain",
-      "thumbnail" : "/img/projets/blockchain.jpg"
+      "title"     : "Civic Business",
+      "url"       : "/civic_business",
+      "thumbnail" : "/img/projets/"
     } ,
   
     {
-      "title"     : "DemocracyOS",
-      "url"       : "/DemocracyOS",
-      "thumbnail" : "/img/projets/dos_banner.png"
+      "title"     : "Cartographie participative",
+      "url"       : "/cartographie_participative",
+      "thumbnail" : "/img/projets/"
+    } ,
+  
+    {
+      "title"     : "Budget participatif",
+      "url"       : "/budget_participatif",
+      "thumbnail" : "/img/projets/"
     } 
   
 ]
-
-

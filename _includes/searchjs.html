@@ -3,7 +3,7 @@
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<a href="{url}"><img class="img-projets" src="{thumbnail}" width="auto" height="80"></img></a><li><a href="{url}" title="{desc}">{title}</a></li>',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'Aucun projet trouvé',
         limit: 10,
         fuzzy: false,

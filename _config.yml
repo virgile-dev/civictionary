@@ -16,7 +16,7 @@ twitter_username: opendemnow
 github_username:  opendemocracynow
 gems: [jekyll-paginate, jekyll-admin]
 paginate: 8
-paginate_path: "/projets/page:num/"
+paginate_path: "/page:num/"
 prose:
  siteurl: 'http://opendemocracynow.net/'
  media: 'img'

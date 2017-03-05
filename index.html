@@ -1,276 +1,53 @@
 ---
 layout: default
-timeline: 'true'
-form: 'true'
-tooltip: 'true'
+title: Civictionnary
+excerpt: "Petit précis de langage à l'usage des néophytes de la Civic Tech"
+
+search: "true"
+
+form: "true"
+
 customjs:
-  - /js/parallax.min.js
-  - /js/fileinput.min.js
-  - /js/locales/fr.js
-published: true
+
+ - /js/jekyll-search.min.js
+
+ - /js/fileinput.min.js
+
+ - /js/locales/fr.js
+
 ---
 
-        <div class="parallax-container-top" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="/img/abs9.jpg" data-natural-width="1476" data-natural-height="705"></div>
-
-
-        <div class= "container">
-            <div class="punchline text-center">
-                <h2>Développer ensemble des solutions open source<a href="#" data-toggle="tooltip" data-placement="top" title="*transparentes, modifiables et libres pour tous!"><b>*</b></a>
-                     pour la démocratie.</h2>
-                <br>
-
+<div class="container">
+  <div>
+    <div class="recherche">
+    <input type="text" id="search-input" class="form-control2" placeholder="rechercher un projet..."><i class="fa fa-search"></i>
+    <ul style="font-weight:600" id="results-container"></ul>
+  </div>
+      <div class="row">
+        <div class="col-md-9">
+            <hr>
+            {% for post in paginator.posts %}
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <a href="{{ post.url }}" style="color:#fff;font-size:1.8em">{{ post.title }}</a>
+              </div>
+              <div class="panel-body">
+                {{ post.content }}
+              </div>
             </div>
-
-            <div class="card">
-               <div class="text_card">
-
-                 {% assign hackathons = site.hackathons | sort: 'title' | reverse %}
-                  {% for hackathon in hackathons limit:1 %}
-
-                    {% if hackathon.nextevent %}
-
-                    <div class="ribbon-red"><span> Prochain événement</span></div>
-
-                        <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ hackathon.moment }} <i class="fa fa-map-marker" aria-hidden="true" style="padding-left:10px"></i> {{ hackathon.place }}</p>
-
-                        {% if hackathon.img %}
-                         <div><a href="{{ hackathon.url }}"><img src="img/hackathons/{{hackathon.img}}"> </img></a></div>
-                        {% else %}
-                        <div class='rectangle-box'>
-                            <a href="{{ hackathon.url }}"><div class='rectangle-content'><div><span>{{hackathon.title}}</span></div></div></a>
-                        </div>
-                        {% endif %}
-
-                    <br>
-                    <br>
-                    {% if hackathon.nextevent %}
-                                    <a href="{{ hackathon.eventurl }}" class="btn btn-success btn-md btn-fill" target="_blank"><b>Inscription</b></a>
-                                    {% endif %}
-
-                                    {% if hackathon.notes %} <a href="{{ hackathon.notes }}" style="float:center" class="btn btn-warning btn-md btn-fill" target="_blank"><b>Compte rendu</b></a>
-                                    {% endif %}
-
-                                    <a href="{{ hackathon.url }}" class="btn btn-info btn-md btn-fill"> <b>Détails</b> <i class="fa fa-chevron-right" style=" vertical-align: middle;"></i> </a>
-                    <br>
-                    <br>
-
-                    {% else %}
-
-                    <div class="ribbon"><span>événement terminé</span></div>
-
-                        <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ hackathon.moment }} <i class="fa fa-map-marker" aria-hidden="true" style="padding-left:20px"></i> {{ hackathon.place }}</p>
-
-                    <div>
-                    <a href="{{ hackahton.url }}"><img src="img/hackathons/{{hackathon.img}}"> </img></a>
-                    </div>
-                    <br>
-                    <br>
-                    <a href="{{ hackathon.url }}" class="btn2 btn-bs btn-lg">Détails et compte rendu</a>
-                    <br>
-                    <br>
-
-                    {% endif %}
-
-                    {% endfor %}
-                </div>
+            <!-- <div class="well">
+              <h3>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                  <p>{{ post.content }}</p>
+              </h3>
+            </div> -->
+              {% endfor %}
+              {% include paginate.html %}
+              <br>
             </div>
+          <div class="col-md-3 col-sm-12 col-sm-12">
+              {% include sidebar.html %}
+          </div>
         </div>
 
-
-
-
-
-
-    <!--  Section Presentation-->
-
-
-
-    <div class="section section-presentation">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="description">
-                        <h3>L'initiative <b>Open Democracy Now</b></h3>
-                        <p>
-                        Officiellement initiée en janvier 2016, l’initiative Open Democracy Now rassemble une communauté d’acteurs aux profils complémentaires désireux d’apporter des solutions concrètes aux enjeux d’une démocratie plus participative et collaborative. </p>
-
-                        <p>Conjointement organisée par DemocracyOS, Etalab, Open Law, Open Source Politics et République Citoyenne, elle a vocation à être <b>construite sur la durée</b>, portée par plusieurs projets développés pendant une série de <a href="{{ site.baseurl }}/hackathons/"><b>hackathons</b></a> tout au long de l’année.
-                        </p>
-
-                        <p>Focalisés sur le développement et l'usage d’outils <b>open source</b> pour la concertation publique en ligne et l’élaboration collaborative de la loi, les différents projets partagent des valeurs structurantes : <b>l’ouverture, la transparence, l’accessibilité, la réutilisation</b>.</p>
-
-                        <p> Les résultats seront présentés les 16 et 17 novembre lors du <a href="http://www.opensourcesummit.paris/" target="_blank"> <b>Paris Open Source Summit</b></a> et les 7,8 et 9 décembre lors du hackathon international du Sommet mondial du  <a href="http://www.opengovpartnership.org/" target="_blank"><b>Partenariat pour un Gouvernement Ouvert</b></a>, à Paris. </p>
-
-                        <p><a href="{{ site.baseurl }}/infos/">En savoir plus</a> sur l'initiative ODN!</p>
-
-
-
-                    <!-- 2 buttons -->
-
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                    <p><a href="{{ site.baseurl }}/projets/" class="btn btn-info btn-lg btn-fill">Découvrez les projets</a></p>
-                            </div>
-
-                            <div class="col-md-6">
-                                {% include projet-modal.html %}
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <img class="img-responsive hidden-xs" src="img/hackathon-18.png" alt="photo participants"/>
-                    <p class="hidden-xs"><i>Les participants du hackathon Open Democracy Now n°4 préparent la restitution de leurs ateliers.<br>
-                        Crédit photo: Robin Lambert.</i></p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-<!--  Section Timeline-->
-
-            <div class="section section-gray section-clients">
-                <div class="container text-center">
-                    <h3>Agenda des Hackathons</h3>
-                    <p>
-                        Joignez-vous aux initiatives citoyennes pour l'Open Source<br>
-                    </p>
-                </br>
-                </div>
-                        <div id='timeline-embed' style="width: 100%; height: 400px;">
-                        </div>
-                </div>
-            </div>
-
-
-
-
-<!--  Section Logos-->
-
-            <div class="section section-features">
-                <div class="container">
-                    <h3 class="text-center">Co-organisateurs</h3>
-                    <br>
-
-                    <div class="row">
-
-                           <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-4 col-sm-2">
-                                    <img class="img-responsive" src="/img/logos/logo_OpenLaw.jpg" alt="">
-                                </div>
-
-
-                               <div class="col-xs-4 col-sm-2">
-                                    <img class="img-responsive" src="/img/logos/DOSlogo.jpg" alt="DemocracyOS">
-                                </div>
-
-                                  <div class="col-xs-4 col-sm-2">
-                                    <img class="img-responsive" src="/img/logos/logoosp.jpg" alt="Open_Source_Politics">
-                                </div>
-
-                                <div class="col-xs-4 col-sm-2">
-                                  <img class="img-responsive" src="/img/logos/ogptoolbox.png" alt="OGP Toolbox">
-                                      </div>
-
-                                  <div class="col-xs-4 col-sm-2">
-                                    <img class="img-responsive" src="/img/logos/Repcitoyenne.jpg" alt="Republique_citoyenne">
-                                        </div>
-
-                            </div>
-
-                             <h3 class="text-center" style="padding-top:30px">Avec le soutien de</h3>
-                             <br>
-
-                            <div class="row">
-
-                             <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-4 col-sm-2"->
-                                    <img class="img-responsive" src="/img/logos/poss.jpg" alt="Paris_Open_Source_Summit">
-                                </div>
-
-
-                               <div class="col-xs-4 col-sm-2">
-                                    <img class="img-responsive" src="/img/logos/ogp_paris.jpg" alt="OGP_logo">
-                                </div>
-
-
-                              <div class="col-xs-4 col-sm-2">
-                               <img class="img-responsive" src="/img/logos/etalab.png" alt="Etalab">
-                                   </div>
-
-                            <div class="col-xs-4 col-sm-2">
-                                    <img class="img-responsive" src="/img/logos/logo-mozilla.png" alt="logo_mozilla">
-                                </div>
-
-
-                            </div>
-
-                </div>
-
-            </div>
-
-
-
-
-           <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="/img/abs1.jpg" data-natural-width="1473" data-natural-height="704"></div>
-
-                <div class= "container text-center">
-
-                    <div class="punchline punchline-bottom">
-                                <h2>Retrouvez les derniers événements ODN!</h2>
-                            </br>
-                        </br>
-                        </br>
-                        </br>
-
-
-                    </div>
-
-
-                        <div class="row">
-
-                            {% for hackathon in hackathons limit:3 %}
-
-                        <div class="col-md-4">
-
-                            <div class="card-bottom">
-
-                                    <h3> {{hackathon.title}} </h3>
-
-                                    <i class="fa fa-calendar" aria-hidden="true"></i> {{ hackathon.moment }} <i class="fa fa-map-marker" aria-hidden="true" style="padding-left:10px"></i> {{ hackathon.place }}
-
-                                      <br>
-                                       <br>
-
-
-                                    {% if hackathon.nextevent %}
-                                    <a href="{{ hackathon.eventurl }}" class="btn btn-success btn-sm btn-fill" target="_blank"><b>Inscription</b></a>
-                                    {% endif %}
-
-                                    {% if hackathon.notes %} <a href="{{ hackathon.notes }}" style="float:center" class="btn btn-warning btn-sm btn-fill" target="_blank"><b>Compte rendu</b></a>
-                                    {% endif %}
-
-                                    <a href="{{ hackathon.url }}" class="btn btn-info btn-sm btn-fill"> <b>Détails</b> <i class="fa fa-chevron-right" style=" vertical-align: middle;"></i> </a>
-                            </div>
-
-                        </div>
-
-                            {% endfor %}
-
-                        </div>
-
-                        <div class="btn-bottom">
-                        <a href="{{ site.baseurl }}/hackathons/" class="btn2 btn-bs btn-lg">Voir tous les hackathons</a>
-                        </div>
-
-
-
-                </div>
-            </div>
-
-            </div>
+  </div>

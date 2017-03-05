@@ -1,85 +1,75 @@
 ---
 
 layout: default
+form: "true"
+customjs:
+
+ - /js/jekyll-search.min.js
+
+ - /js/fileinput.min.js
+
+ - /js/locales/fr.js
 
 ---
+<div class="container">
+  <div>
+    <div class="recherche">
+    <input type="text" id="search-input" class="form-control2" placeholder="rechercher un projet..."><i class="fa fa-search"></i>
+    <ul style="font-weight:600" id="results-container"></ul>
+  </div>
+      <div class="row">
+        <div class="col-md-9">
+            <hr>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h1 style="color:#fff;font-size:1.8em;"><a href="{{ post.url }}" style="color:#fff;">{{ page.title }}</a></h1>
+              </div>
+              <div class="panel-body">
+                {{ page.content }}
+              </div>
+            </div>
 
+            <div class="well">
+              <h3>Sources</h3>
+              {% if page.source1 %}
+                <a href="{{ page.source-url1 }}" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> {{ page.source1 }}
+                </a>
+                <p>{{ page.sourcedetails1 }}</p>
+              {% endif %}
+              {% if page.source2 %}
+                <a href="{{ page.source-url2 }}" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> {{ page.source2 }}
+                </a>
+                <p>{{ page.sourcedetails2 }}</p>
+              {% endif %}
+              {% if page.source3 %}
+                <a href="{{ page.source-url3 }}" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> {{ page.source3 }}
+                </a>
+                <p>{{ page.sourcedetails3 }}</p>
+              {% endif %}
+              {% if page.source4 %}
+                <a href="{{ page.source-url4 }}" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> {{ page.source4 }}
+                </a>
+                <p>{{ page.sourcedetails4 }}</p>
+              {% endif %}
+              {% if page.source5 %}
+                <a href="{{ page.source-url5 }}" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> {{ page.source5 }}
+                </a>
+                <p>{{ page.sourcedetails5 }}</p>
+              {% endif %}
+              {% if page.source6 %}
+                <a href="{{ page.source-url6 }}" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> {{ page.source6 }}
+                </a>
+                <p>{{ page.sourcedetails6 }}</p>
+              {% endif %}
+            </div>
+            </div>
 
- <div class="container">
+          <div class="col-md-3 col-sm-12 col-sm-12">
+              {% include sidebar.html %}
+          </div>
+        </div>
 
-		<h1>{{ page.title }}</h1>
-
-		<hr>
-
-		<!-- Date/Time -->
-		<p><i class="fa fa-clock-o" aria-hidden="true"></i> 
-			Projet ajouté le {% include date-display.html %}
-			{% if page.active == false %}<span class="btn btn-hackathon btn-terminated btn-sm"> <b>Terminé</b>{% endif %}
-		</p>
-
-		<hr>
-
-		<div class="row">
-            
-    		<div class="col-md-9">
-
-				{% if page.img %}
-                <img class="img-responsive img-projets" src="/img/projets/{{ page.img }}" alt="{{ page.title }}">
-                {% else %}
-                <div class='rectangle-box'>
-                <div class='rectangle-content'><div><span>{{page.title}}</span></div></div>
-                </div>
-               	{% endif %}
-					
-
-					<br>
-					<br>
-					<br>
-
-				<h5> Description du projet </h5>
-
-
-
-				{{ content }}
-
-					
-				{% include social-bars.html %}
-					
-					<hr>
-					
-					<div class="center-xs">
-						<p><h5>Représentant à contacter: </h5></p>
-						<br>
-						<div class="row">
-							<div class="col-md-3 col-sm-3">
-
-								<p>
-									{% if page.repimg %}
-									<img style= "width:150px ; height:150px" src="/img/people/{{ page.repimg }}" alt="{{ page.rep }}" class="img-circle">
-									{% else %}
-									<img src="http://placehold.it/150x150" alt="{{ page.rep }}" class="img-circle">
-									{% endif %}
-								</p>
-
-							</div>
-
-							<div class="col-md-7 col-sm-7">
-				    			<div class="rep-text">
-					    			<p>
-					    			{{ page.rep }}
-									</br>
-									<i class="fa fa-envelope" aria-hidden="true"></i> {{ page.repmail}}
-									</p>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-				</div>
-
-				{% include sidebar.html %}
+  </div>
 		</div>
 
 		<br>
@@ -108,9 +98,9 @@ layout: default
     */
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
-        
+
         s.src = '//opendemocracynow.disqus.com/embed.js';
-        
+
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -121,6 +111,3 @@ layout: default
 </div>
 
 		{% endif %}
-				
-
-	

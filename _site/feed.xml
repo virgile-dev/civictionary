@@ -4,394 +4,124 @@
     <title>Open Democracy Now</title>
     <description>Développer ensemble des solutions open source pour la démocratie.
 </description>
-    <link>http://opendemocracynow.net//</link>
-    <atom:link href="http://opendemocracynow.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Sep 2016 16:54:52 +0200</pubDate>
-    <lastBuildDate>Tue, 20 Sep 2016 16:54:52 +0200</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 05 Mar 2017 17:35:20 +0100</pubDate>
+    <lastBuildDate>Sun, 05 Mar 2017 17:35:20 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Mémoire vive / Elephant (working title)</title>
-        <description>&lt;p&gt;Aider les citoyens se faire une opinion des H/F politiques (et voter) en s’appuyant sur la réalité (et pas seulement sur les promesses et la communication politique)&lt;/p&gt;
-
-&lt;p&gt;Base open data des politiques croisant leurs déclarations (engagements…) et les les faits (lois, votes…),
-ce qui permet de mettre un  « score » au politique&lt;/p&gt;
-
-&lt;h5 id=&quot;latelier-dans-le-cadre-de-odn&quot;&gt;L’atelier dans le cadre de ODN&lt;/h5&gt;
-
-&lt;p&gt;République citoyenne est co-fondateur et organisateur d’Open Democracy Now. La discussion avec Memopol
-a été l’occasion de lancer ce projet en partenariat.&lt;/p&gt;
-
-&lt;p&gt;Les contributeurs sont tous bienvenus :
-Citoyens, journalistes… : sources d’info, fact-checking, article d’illustration (+ nom du projet?)Devs: formats posgresql/json, I/O sources, Mémopol, Wikidata… (python), IHM (django,css)Designers: pour l’UI (input &amp;amp; consultation)Assos: sources d’info + pondération des scoresChercheurs: analyse sémantique, stats, …&lt;/p&gt;
-
+        <title>Open Washing</title>
+        <description>&lt;p&gt;L’openwashing (parfois traduit en français par « ouvertisation »1), est une expression désignant un procédé de marketing ou de relations publiques laissant croire qu’une initiative s’inscrit dans le mouvement de la culture libre.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 17 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//m-moire-vive-elephant-working-title</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//m-moire-vive-elephant-working-title</guid>
-        
-        <category>logiciels</category>
-        
-        <category>ateliers</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/open_washing</link>
+        <guid isPermaLink="true">http://localhost:4000/open_washing</guid>
         
         
       </item>
     
       <item>
-        <title>Empowering students</title>
-        <description>&lt;p&gt;En redonnant une voix aux étudiants, les plateformes de consultation en ligne constituent une réponse adaptée aux enjeux liés à l’implication des jeunes dans le processus de décision au sein des écoles et des universités.&lt;/p&gt;
-
-&lt;p&gt;Les étudiants pèsent insuffisamment sur les décisions qui les concernent directement. Leur implication est souvent freinée et leur action verrouillée par des considérations politiques. S’en suit une perte de conscience de leur capacité d’agir dans la société, laquelle s’exprime au sein même des universités et des écoles.&lt;/p&gt;
-
-&lt;p&gt;Dès lors, comment renforcer la participation étudiante dans une démarche d’ouverture et de transparence ?&lt;/p&gt;
-
-&lt;p&gt;Les plateformes de consultation en ligne constituent une réponse adaptée dans la mesure où elles permettraient d’intégrer les étudiants dans le processus de décision, et ce en donnant à chacun d’eux la possibilité de : S’informer – S’exprimer – Débattre – Voter.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;atelier-dans-le-cadre-du-hackathon&quot;&gt;Atelier dans le cadre du hackathon&lt;/h5&gt;
-
-&lt;p&gt;L’atelier organisé lors du 4ème hackathon permettra ainsi d’aborder la problématique de la participation étudiante en milieu universitaire. Il sera articulé autour de deux axes de réflexion en lien avec les apports des méthodes et des outils d’Open government dans l’enseignement supérieur : d’une part, la gestion de la vie association, d’autre part, la question de la participation et de la représentativité des étudiants dans la gouvernance des écoles et des universités.&lt;/p&gt;
-
-&lt;p&gt;L’objectif de l’atelier « Empowering Students » est donc de :&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Identifier les besoins&lt;/li&gt;
-  &lt;li&gt;Analyser les enjeux (moteurs et freins)&lt;/li&gt;
-  &lt;li&gt;Déterminer les modalités &lt;/li&gt;
-  &lt;li&gt;Définir des règles de gouvernance&lt;/li&gt;
-  &lt;li&gt;Concevoir une plateforme consultative adaptée&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Pour ce faire, nous souhaitons impliquer les parties prenantes de l’écosystème étudiant et les acteurs de la démocratie participative afin d’aboutir à une plateforme ouverte et facilement réplicable au sein des universités et des écoles et au soutien des projets étudiants.&lt;/p&gt;
+        <title>Open Source</title>
+        <description>&lt;p&gt;La désignation open source, ou « code source ouvert », s’applique aux logiciels (et s’étend maintenant aux œuvres de l’esprit) dont la licence respecte des critères précisément établis par l’Open Source Initiative, c’est-à-dire les possibilités de libre redistribution, d’accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d’une collaboration entre programmeurs.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//empowering_students</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//empowering_students</guid>
-        
-        <category>Atelier</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/open_source</link>
+        <guid isPermaLink="true">http://localhost:4000/open_source</guid>
         
         
       </item>
     
       <item>
-        <title>Impacty</title>
-        <description>&lt;p&gt;Mesurer de manière impartiale et le plus exactement possible l’impact des politiques publiques grâce à l’analyse de données.&lt;/p&gt;
+        <title>Lanceur alerte</title>
+        <description>&lt;h4 id=&quot;sens-1-&quot;&gt;Sens 1 :&lt;/h4&gt;
 
-&lt;p&gt;Les données publiques sont de plus en plus ouvertes et de plus en plus accessibles aux citoyens. Nos administrations en collectent dans tous les domaines : économie, transports, sécurité, éducation… Tout est numérisé et stocké, sans forcement être analysé.
-Les résultats des politiques publiques, ces fameux bilans que chaque élu s’attache à défendre en fin de mandat, sont trop souvent baisés par des opinions partisanes ou obscurcis par l’utilisation d’indices moyens, ne représentant aucune situation réelle.
-L’idée du projet est d’utiliser des données pour évaluer l’impact concret et local des politiques publiques. Il s’agit de comprendre l’influence qu’ont les différents outils à disposition des administrations (économiques, législatifs, éducatifs) sur la vie quotidienne des citoyens. Nous utiliserons des algorithmes de data science modernes pour comprendre, sans à priori, quel a été l’effet de telle mesure, de telle loi, de telle dépense.&lt;/p&gt;
+&lt;p&gt;Toute personne, groupe ou institution qui, percevant les signes précurseurs d’un danger ou d’un risque, interpelle une ou plusieurs puissances d’action, dans le but d’éviter un enchaînement catastrophique, avant qu’il ne soit trop tard.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;sens-2-&quot;&gt;Sens 2 :&lt;/h4&gt;
 
-&lt;h5 id=&quot;latelier-dans-le-cadre-de-odn&quot;&gt;L’atelier dans le cadre de ODN&lt;/h5&gt;
-
-&lt;p&gt;Ayant une formation d’ingénieur, je suis très intéressé par les applications des nouvelles technologies, et je suis convaincu que notre gouvernement doit tirer parti de ces innovations. Il y a un manque surprenant de compétences techniques et scientifiques dans les cercles dirigeants, ce genre d’initiatives permet d’avancer plus rapidement, de communiquer des idées et de construire la démocratie de demain. En ce moment, je lance une entreprise aidant les administrations à visualiser et analyser leurs données budgétaires en insistant sur les indicateurs sociaux, l’étude de l’impact social m’intéresse donc particulièrement.&lt;/p&gt;
-
-&lt;p&gt;L’objectif de ce Hackathon est de construire une étude de cas convaincante, prouvant que ce genre d’évaluation impartiale et basée sur des faits bruts est possible. A plus long terme, l’idéal serait de construire un outil d’évaluation permettant à des collectivités de toute taille d’évaluer leur action, simplement en branchant leurs bases de données sur notre système.
-Le projet n’est encore qu’une idée, j’ai simplement commencé à chercher des jeux de données.
-Pour avancer il nous faudrait des spécialistes de l’analyse de données, domaine très mathématique, mais également des gens connaissant les moyens traditionnels d’évaluations des politiques publiques, des développeurs, et des citoyens capables de nous guider dans l’obtention des jeux de données, par exemple en obtenant les données sociale de leur commune.&lt;/p&gt;
+&lt;p&gt;Toute personne ou groupe qui rompt le silence pour signaler, dévoiler ou dénoncer des faits, passés, actuels ou à venir, de nature à violer un cadre légal ou réglementaire ou entrant en conflit avec le bien commun ou l’intérêt général. Ce second sens est plus proche du mot anglais whistleblower – dont l’expression de lanceur d’alerte n’est cependant pas la traduction directe.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//Impacty</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//Impacty</guid>
-        
-        <category>Logiciels</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/lanceur-alerte</link>
+        <guid isPermaLink="true">http://localhost:4000/lanceur-alerte</guid>
         
         
       </item>
     
       <item>
-        <title>Expédition Open Data «semaine pour les parlements ouverts»</title>
-        <description>&lt;p&gt;Profiter de la semaine « pour les parlements ouverts », pour expliquer, réutiliser et enrichir l’OpenData disponibles sur le Parlement français : démonstration des données existantes (APIs et dumps), analyses de proximité, études statistiques, visualisations…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.nosdeputes.fr/&quot;&gt;NosDéputés.fr&lt;/a&gt;, &lt;a href=&quot;http://www.nossenateurs.fr/&quot;&gt;NosSénateurs.fr&lt;/a&gt; ainsi que les sites des parlements proposent des données en Open Data relatives à l’activité des parlementaires. Si quelques chercheurs, hacktivistes ou journalistes les utilisent régulièrement dans leurs travaux, ces jeux de données pourraient être plus massivement utilisés pour mieux comprendre le travail ou les enjeux qui se trament à l’Assemblée ou au Sénat.&lt;/p&gt;
-
-&lt;p&gt;A l’occasion de la « &lt;a href=&quot;http://openparlweek.org/&quot;&gt;Global Legislative Openness Week&lt;/a&gt; », Regards Citoyens propose de se pencher sur ces données pour mieux comprendre la dynamique de l’écriture de la loi, du lobbying parlementaire ou des spécialités des parlementaires.&lt;/p&gt;
-
-&lt;p&gt;Des membres de l’association seront présents Samedi pour expliquer les jeux de données existants, faire découvrir les outils en cours de développement, continuer leur développement et accueillir toute personne qui souhaiterait réutiliser ces données parlementaires.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;latelier-dans-le-cadre-de-odn&quot;&gt;L’atelier dans le cadre de ODN&lt;/h5&gt;
-
-&lt;p&gt;Dans la contituité de son plaidoyer porté depuis 7 ans, Regards Citoyens s’associe à la semaine internationale « Pour les parlements ouverts ». Ce travail de lobbying pour pousser les deux chambres du parlement français vers plus d’ouverture a porté ses fruits notamment avec l’ouverture de portails Open Data par les deux chambres. En revanche, ces données ne sont toujours pas très bien documentées et difficiles à exploiter, les rares réutilisateurs ont tendance à utiliser les données fournies par NosDéputés.fr ou NosSénateurs.fr.&lt;/p&gt;
-
-&lt;p&gt;Pour inciter le Sénat et l’Assemblée à faire mieux, il faut leur montrer qu’une communauté de réutilisateurs est intéressée par leurs données afin de les inciter à faire mieux. Durant la journée de samedi, des membres de l’association feront découvrir les données existantes et développeront des outils d’exploitation des données parlementaires françaises.&lt;/p&gt;
-
-&lt;p&gt;Liens utiles : 
-OpenData de l’Assemblée &lt;a href=&quot;http://data.assemblee-nationale.fr/&quot;&gt;http://data.assemblee-nationale.fr/&lt;/a&gt;
-OpenData du Sénat &lt;a href=&quot;http://data.senat.fr/&quot;&gt;http://data.senat.fr/&lt;/a&gt;&lt;/p&gt;
+        <title>Hackathon</title>
+        <description>&lt;p&gt;Le mot hackathon désigne à la fois le principe, le moment et le lieu d’un événement où un groupe de développeurs volontaires se réunissent pour faire de la programmation informatique collaborative, sur plusieurs jours. C’est un processus créatif fréquemment utilisé dans le domaine de l’innovation numérique.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 14 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//exploitation_de_donnees_parlementaires</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//exploitation_de_donnees_parlementaires</guid>
-        
-        <category>Logiciels, Open data</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/hackathon</link>
+        <guid isPermaLink="true">http://localhost:4000/hackathon</guid>
         
         
       </item>
     
       <item>
-        <title>Exerçons notre droit de pétitions !</title>
-        <description>&lt;p&gt;La constitution française garantie depuis 2003 le droit de pétition. Bien que celui-ci ait été anesthésié par le législateur, il l’est encore plus par la pratique.&lt;/p&gt;
-
-&lt;p&gt;Nous aimerions créer un CMS (ou un plugin pour des CMS existants) open source qui permettrait aux associations de créer des pétitions en ligne très facilement et qui synchroniserait les signataires avec les listes électorales et annoncerait automatiquement aux initiateurs et signataires que le seuil est atteint et doit être soumis au Conseil concerné.
-Cela permettrait à toutes les associations de créer des pétitions en ligne à destination des collectivités et faire avancer légalement leurs causes.&lt;/p&gt;
-
-&lt;p&gt;Court texte sur ta participation au hackathon Open Democracy Now (100-150 mots), par exemple :
-Nous avons participé à l’Open Data Day en mars dernier à Aix-en-Provence avec l’Open Knowledge Foundation France. Lors de cet évènement nous avons proposé de géolocaliser les délibérations du Conseil Municipal d’Aix-en-Provence par rapport à l’endroit ou elles interagissaient aux citoyen•ne•s présent•e•s. 1200 points plus tard, ceci nous a permis de sortir une carte sur laquelle n’importe quel citoyen peut regarder ce que la Mairie a voté près de chez lui.&lt;/p&gt;
-
-&lt;p&gt;La carte : http://data.pouraix.fr/2016/03/24/carte-des-deliberations-du-conseil-municipal-2015/ 
-Le compte rendu de l’évènement (en anglais) : http://pouraix.tumblr.com/post/142428018015/open-data-day-okf&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;entretient-avec-guillaume-ricaud-peretti-porteur-du-projet&quot;&gt;Entretient avec Guillaume RICAUD-PERETTI porteur du projet&lt;/h5&gt;
-
-&lt;h6 id=&quot;quest-ce-qui-ta-donn-envie-de-participer-au-hackathon-&quot;&gt;Qu’est-ce qui t’a donné envie de participer au hackathon ?&lt;/h6&gt;
-&lt;p&gt;Notre association porte des projets sur la démocratie en ligne. Le hackathon est un moment privilégié pour en discuter avec des développeurs qui peuvent apporter des solutions techniques et des citoyens qui apportent d’autres questionnements qui font avancer nos démarches.&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-objectifs-avec-ce-projet-dans-le-cadre-&quot;&gt;Quels sont tes objectifs avec ce projet dans le cadre ?&lt;/h6&gt;
-
-&lt;p&gt;Notre projet vise à faire connaître le droit à la pétition tel que dispensé par la constitution mais également à permettre la mise en place d’une plateforme de pétitions citoyenne respectueuse des données personnelles de ses activistes. ics d’élargir la participation des citoyens dans le processus démocratique ;&lt;/p&gt;
-
-&lt;h6 id=&quot;quelles-tapes-as-tu-dj-franchies&quot;&gt;Quelles étapes as-tu déjà franchies?&lt;/h6&gt;
-
-&lt;p&gt;Pour l’instant nous établissons le cahier des charges du projet et cherchons des solutions pour proposer une version bêta la plus automatisée possible.&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-besoins-pour-avancer-dveloppeurs-graphistes-citoyens-motives-spcialistes-dun-domaine-etc-&quot;&gt;Quels sont tes besoins pour avancer (développeurs, graphistes, citoyens motivées, spécialistes d’un domaine etc.) ?&lt;/h6&gt;
-
-&lt;p&gt;Nous aurions besoin dans un premier temps d’un ou de plusieurs développeurs puis de citoyens motivés pour alimenter la plateforme et la faire connaître.&lt;/p&gt;
-
-&lt;h6 id=&quot;ce-qui-te-passe-par-la-tte-et-que-tu-veux-nous-communiquer&quot;&gt;Ce qui te passe par la tête et que tu veux nous communiquer &lt;/h6&gt;
-
-&lt;p&gt;Notre association est un laboratoire d’idées indépendant et apartisan, rassemblant et mobilisant les citoyen•ne•s de la Métropole quelles que soient leurs sensibilités politiques, leurs origines sociales et culturelles sur les différentes thématiques de la vie citoyenne, pourvu qu’ils•elles souhaitent contribuer au vivre ensemble et à la vie démocratique de notre territoire.&lt;/p&gt;
+        <title>Gouvernement ouvert</title>
+        <description>&lt;p&gt;Le gouvernement ouvert, ou démocratie ouverte (en anglais open government) est une doctrine de gouvernance qui vise à améliorer l’efficacité et la responsabilité des modes de gouvernance publique. Elle établit que les citoyens ont le droit d’accéder aux documents et aux procédures de leurs gouvernements1 afin de favoriser une transparence et une responsabilisation accrue2 et de donner aux citoyens les moyens nécessaires pour contrôler, superviser et prendre part aux décisions gouvernementales et locales.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 14 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//exigeons_droit_petitions</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//exigeons_droit_petitions</guid>
-        
-        <category>Logiciels, Hardware</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/gouvernement_ouvert</link>
+        <guid isPermaLink="true">http://localhost:4000/gouvernement_ouvert</guid>
         
         
       </item>
     
       <item>
-        <title>LaPrimaire.org</title>
-        <description>&lt;p&gt;LaPrimaire.org est primaire démocratique ouverte 100% en ligne dont l’objectif est de faire emerger la meilleure équipe citoyenne possible en vue des prochaines elections (presidentielles et legislatives 2017).&lt;/p&gt;
-
-&lt;p&gt;LaPrimaire.org est née de la frustration électorale qu’une grande majorité de citoyens ressent lorsqu’il est appelé à s’exprimer dans les urnes : celle de devoir a chaque “voter pour le moins pire des candidats”. L’objectif de LaPrimaire.org est de venir contester le monopole des partis politiques sur la designation des candidats aux elections en permettant à des personnes de la société civile de se regrouper pour présenter en vue de présenter des candidatures crédibles et solides, le tout le plus démocratiquement possible. LaPrimaire.org est une primaire 100% en ligne dans la totalité du code est opensource et disponible sur https://github.com/democratech&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;entretient-avec-thibaud-favre-porteur-du-projet&quot;&gt;Entretient avec Thibaud Favre porteur du projet&lt;/h5&gt;
-
-&lt;h6 id=&quot;quest-ce-qui-ta-donn-envie-de-participer-au-hackathon-&quot;&gt;Qu’est-ce qui t’a donné envie de participer au hackathon ?&lt;/h6&gt;
-&lt;p&gt;Le code de LaPrimaire.org etant 100% open source depuis le début afin que d’autres projets puissent réutiliser notre code, c’est pourquoi j’avais dans ma TODO list depuis longtemps de proposer à d’autres développeurs de rejoindre le développement de LaPrimaire.org pour avancer plus vite et aider à la diffusion du projet. Le hackathon opendemocracy m’a semblé être l’endroit idéal pour lancer cela :) En plus, il y a d’autres projets comme celui de MaVoix avec qui on collabore donc c’etait l’occasion de se rencontrer et de donner un coup de boost !&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-objectifs-avec-ce-projet-dans-le-cadre-&quot;&gt;Quels sont tes objectifs avec ce projet dans le cadre ?&lt;/h6&gt;
-
-&lt;p&gt;Finaliser une v1 de l’integration LaPrimaire.org &amp;lt;-&amp;gt; cocorico, le systeme de vote développé par Jean-Marc dans le cadre de MaVoix. Avoir une 1ère version de Houston, un bot facebook développé par Pierre-Louis dont le but est de permettre l’etablissement d’un cahier de doléances à grande échelle en permettant aux citoyens de remonter thème par thème et de manière ludique les problèmes les plus importants à leurs yeux. Enfin, j’espère rencontrer d’autres personnes intéressées pour rejoindre le projet pour aider au développement du site web : il faut aider à la recherche des signatures des maires, lancer le site web pour les legislatives… c’est pas le boulot qui manque :)&lt;/p&gt;
-
-&lt;h6 id=&quot;quelles-tapes-as-tu-dj-franchies&quot;&gt;Quelles étapes as-tu déjà franchies?&lt;/h6&gt;
-
-&lt;p&gt;LaPrimaire.org est live depuis avril, la 1ère phase s’est déroulée quasiment sans-accroc a travers un bot Telegram qui a donné naissance au framework Giskard (https://github.com/telegraph-ai/giskard). Aujourd’hui, plus de 60.000 personnes sont déjà inscrites sur LaPrimaire.org.&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-besoins-pour-avancer-dveloppeurs-graphistes-citoyens-motives-spcialistes-dun-domaine-etc-&quot;&gt;Quels sont tes besoins pour avancer (développeurs, graphistes, citoyens motivées, spécialistes d’un domaine etc.) ?&lt;/h6&gt;
-
-&lt;p&gt;Nous recherchons des développeurs biensûr mais également des citoyens connaissant le marketing online, des citoyens motivés pour organiser des evenements… je pense vraiment qu’on a des missions pour tous les citoyens motivés quelque soit leurs compétences !&lt;/p&gt;
+        <title>Démocratie Participative</title>
+        <description>&lt;p&gt;La démocratie participative désigne l’ensemble des procédures, instruments et dispositifs qui favorisent l’implication directe des citoyens dans le gouvernement des affaires publiques.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 13 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//laprimaire-org</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//laprimaire-org</guid>
-        
-        <category>Logiciels</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/democratie_participative</link>
+        <guid isPermaLink="true">http://localhost:4000/democratie_participative</guid>
         
         
       </item>
     
       <item>
-        <title>e-Participate comme vecteur d&#39;amélioration (construction, d&#39;évolution) de la Démocratie en Afrique.</title>
-        <description>&lt;p&gt;Le projet a pour objectif d’expliquer les différents dispositifs pouvant  permettre aux organismes publics  (Conseils municipaux, Commissions, Débats parlementaires, …) d’inciter et d’élargir la participation,  des citoyens dans le processus démocratique via les outils numériques.&lt;/p&gt;
-
-&lt;p&gt;Accompagner les élus locaux pour moderniser leur communication en direction des populations. Ainsi, des  multiples services peuvent être mis à contribution au service du citoyen. Il faut s’imaginer que les populations pourront utiliser internet pour demander des comptes au conseil municipal ou autre organisme public, quelque soi le lieu et sans limitation de temps. Une brèche serait ainsi ouverte pour « la démocratie électronique ». Cette innovation (révolution) permettra aux collectivités territoriales décentralisées de s’ouvrir aux citoyens et au monde. Cette ouverture, permettra de bénéficier de l’information à la demande. C’est aussi l’occasion d’avoir accès à une multitude d’opportunités, avoir accès à une intelligence collective d’une taille et d’une vitesse inédites.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;entretient-avec-franois-fumu-tamuzo-porteur-du-projet&quot;&gt;Entretient avec François FUMU TAMUZO porteur du projet&lt;/h5&gt;
-
-&lt;h6 id=&quot;quest-ce-qui-ta-donn-envie-de-participer-au-hackathon-&quot;&gt;Qu’est-ce qui t’a donné envie de participer au hackathon ?&lt;/h6&gt;
-&lt;p&gt;Recherche permanente des outils, des modèles, innovants de contribution pour la résolution créative de problèmes ù’a conduis à adhérer à la vision d’un hackathon comme le votre pour partager et échanger sur ma vision de démocratie via des outils numériques où l’Afrique reste encore malheureusement dans les derniers wagons&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-objectifs-avec-ce-projet-dans-le-cadre-&quot;&gt;Quels sont tes objectifs avec ce projet dans le cadre ?&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Relancer et  Mettre en place une équipe de travail pour poursuivre le projet au Cameroun où le projet avait déjà été initié, pays bilignue (Anglais au nord/Français au sud) ;&lt;/li&gt;
-  &lt;li&gt;Susciter l’intérêt d’un tel projet au plus haut niveau ;&lt;/li&gt;
-  &lt;li&gt;Avec les pays ou les villes qui seront d’accord, Imaginer, Concevoir et  déployer une plate-forme eParticipation multimédia d’une suite d’applications pour permettre aux organismes publics d’élargir la participation des citoyens dans le processus démocratique ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;quelles-tapes-as-tu-dj-franchies&quot;&gt;Quelles étapes as-tu déjà franchies?&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Expérimentation et Mise en place du Webcasting en France Ville d’Elancourt)
-Expérience de partage avec 10 villes des pays européens qui ont participé au projet eParticipation.
-(Vysocina en Rép. Tchèque/ Odder au Danemark / Bristol en Angleterre/ Getafe en Espagne…) ;&lt;/li&gt;
-  &lt;li&gt;1 ère expérience d’exposition et d’échanges avec 40 commune du Cameroun en 2009 ;   &lt;/li&gt;
-  &lt;li&gt;Débat sur le e Participate en République Démocratique du Congo (intégrer le citoyen au débat public) ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-besoins-pour-avancer-dveloppeurs-graphistes-citoyens-motives-spcialistes-dun-domaine-etc-&quot;&gt;Quels sont tes besoins pour avancer (développeurs, graphistes, citoyens motivées, spécialistes d’un domaine etc.) ?&lt;/h6&gt;
-
-&lt;p&gt;Développer le système « low cost »  basé sur une architecture client / serveur. Le codeur client PC est utilisé pour capturer et encoder le contenu A / V. Le contenu codé est transmis en continu aux côtés de l’information contextuelle en direct. paramètres de l’encodeur client sont synchronisées avec la base de données du serveur central qui stocke toutes les données diffusées sur le Web et le système. La communication série est utilisé pour contrôler le matériel contenu de capture. Toute autre communication se déroule sur TCP / IP. L’encodeur client est connecté au réseau public-i via ligne directe RNIS ou ADSL afin d’assurer la connectivité incontestée.&lt;/p&gt;
-
-&lt;h6 id=&quot;ce-qui-te-passe-par-la-tte-et-que-tu-veux-nous-communiquer&quot;&gt;Ce qui te passe par la tête et que tu veux nous communiquer &lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Que l’Afrique peine et souffre de la corruption (voir les différentes élections réalisées dans ce continent où les arbitres sont les Européens avec la Commission Européenne) ;
-Apporter un minimum de transparence à l’action politique des pays d’Afriques ;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>Démocratie liquide</title>
+        <description>&lt;p&gt;Dispositif technique et discursif recueillant les propositions citoyennes et permettant de délibérer, consulter, amender ainsi que de voter afin de favoriser un accès durable et une participation effective à la prise de décision publique et/ou politique.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 13 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//democratie_en_afrique</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//democratie_en_afrique</guid>
-        
-        <category>Logiciels</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/democratie_liquide</link>
+        <guid isPermaLink="true">http://localhost:4000/democratie_liquide</guid>
         
         
       </item>
     
       <item>
-        <title>DemocracyBox</title>
-        <description>&lt;p&gt;DemocracyBox  sur RaspBerry Pi 3 / TV / vidéoproj : 
-Outil numérique mobile de travail collaboratif citoyen —&amp;gt; des services utiles aux réunions publiques, au suivi du travail accompli en ateliers démocratiques, y compris en mode projet.&lt;/p&gt;
-
-&lt;p&gt;L’objectif de cet atelier est de concevoir et réaliser un outil numérique mobile de suivi du travail et des projets coopératifs sur base de RaspBerry Pi 3.&lt;/p&gt;
-
-&lt;p&gt;Il s’agit de mettre à disposition facilement un ensemble simple et configurable de services et documents collaboratifs, ressources, médias… – concentrés en un endroit identifié pendant les réunions (type pirateBox) et accessibles entre les réunions, sur internet, une fois la DemocracyBox rebranchée sur une Box de FAI.&lt;/p&gt;
-
-&lt;p&gt;Etat d’avancement : réflexion avancée au forum des usages coopératifs de Brest.&lt;/p&gt;
-
-&lt;p&gt;Quelles technos ?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RaspBerry Pi 3 ;&lt;/li&gt;
-  &lt;li&gt;une sélection modulable de services web (outils de travail collaboratif : tableau blanc, etherpad lite, wiki, outil de vote / contributions, enquête / sondage, CMS, serveur de médias, base documentaire, agenda, etc.) ;&lt;/li&gt;
-  &lt;li&gt;box déconnectée / (re)connectable ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;latelier-dans-le-cadre-de-odn&quot;&gt;L’atelier dans le cadre de ODN&lt;/h5&gt;
-
-&lt;p&gt;L’atelier proposé se situe en prolongement du travail entrepris lors du dernier forum des usages de Brest, suite à notre expérience des réunions et ateliers démocratiques citoyens, et aux difficultés rencontrées à ces occasions.&lt;/p&gt;
-
-&lt;p&gt;On constate trop souvent :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;une sous-utilisation du numérique comme auxiliaire du travail démocratique citoyen, comme outil de démocratie participative ou liquide, de consultation, d’expression, de synthèse et d’approfondissement collaboratifs (conduisant du coup à des initiatives individuelles plus ou moins improvisées) ;&lt;/li&gt;
-  &lt;li&gt;Un manque d’accès aux documents / bases de travail des groupes ; « Tu as vu le document avec lequel on a travaillé… ? Non je n’ai pas eu le mail » ; De l’information et des ressources sont souvent éparpillées sur différentes urls, ou inconnues de trop de participants … ;&lt;/li&gt;
-  &lt;li&gt;la nécessité de faciliter l’accès en réunion aux outils de travail collaboratif, de contributions, de vote, … ;&lt;/li&gt;
-  &lt;li&gt;des conférences et ateliers ont lieu simultanément sans qu’on puisse toujours avoir un accès après coup, centralisé et identifié, aux contributions manquées, compte-rendus et synthèses de travaux, prolongements possibles … ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pour continuer de concevoir, et désormais réaliser collaborativement un prototype abouti et opérationnel de cet outil dans le cadre du hackathon, nous avons besoin de :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;citoyens motivés pour affiner la conception modulaire et définir la présentation et l’accès aux services proposés ;&lt;/li&gt;
-  &lt;li&gt;spécialistes du coopératif et des outils de travail collaboratif ;&lt;/li&gt;
-  &lt;li&gt;linuxiens, « raspbianistes », etc. pour la discussion sur les performances, et par ailleurs l’installation et le paramétrage de ceux-ci&lt;/li&gt;
-  &lt;li&gt;dév(s). Javascript, Php pour réaliser l’interface, configurable, d’accès (sous WordPress) aux services ;&lt;/li&gt;
-  &lt;li&gt;designer et graphiste(s) pour concevoir et réaliser une interface « simple, accessible à tous, attractive et engageante, mobilisatrice et progressive » ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Le résultat sera documenté et mis en open source.&lt;/p&gt;
+        <title>Démocratie</title>
+        <description>&lt;p&gt;La notion de démocratie dans le contexte des discours sur la participation a une double valeur normative : une fonction de légitimation et une fonction d’évaluation de la participation. Aussi, la conjonction entre démocratie et participation est-elle discutée dans diverses approches qui séparent les deux termes.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 13 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//democracy_box</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//democracy_box</guid>
-        
-        <category>Logiciels, Hardware</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/democratie</link>
+        <guid isPermaLink="true">http://localhost:4000/democratie</guid>
         
         
       </item>
     
       <item>
-        <title>Débapédia, une encyclopédie de débats</title>
-        <description>&lt;p&gt;Pour ceux qui veulent se forger une opinion sur un sujet donné. Pour ceux qui cherchent à connaître les différentes positions d’un débat, sans passer des heures à rechercher des arguments éparpillés sur la toile.&lt;/p&gt;
-
-&lt;p&gt;Débapédia.org est une encyclopédie de débats, c’est-à-dire de pages qui visent à compiler ces arguments de façon simple et organisée. Résumé en quelques lignes, chacun des arguments est catégorisé en pour ou contre et est mis face à l’ensemble des objections qui lui sont généralement adressées. Pour chaque argument ou objection, une page détaillée vient apporter plus d’informations : des exemples, des chiffres, des citations ou le nom de ses principaux défenseurs.&lt;/p&gt;
-
-&lt;p&gt;Pour chaque débat, un ensemble de ressources complémentaires (bibliographie, sitographie, filmographie) sont apportées à ceux qui souhaiteraient approfondir leur connaissance du sujet. Un système de renvois (« Débat connexe » ou « Débat détaillé ») permet par ailleurs de relier les différents débats entre eux, étant donné qu’un débat est avant tout un ensemble de positions pouvant chacune d’entre elles faire l’objet d’un débat.&lt;/p&gt;
-
-&lt;p&gt;Le site fonctionne selon le principe d’un wiki. Collaboratif, libre de droits, le contenu est apporté par les utilisateurs par une interface similaire à celle de Wikipédia. Ce contenu peut ainsi être réutilisé sur d’autres dispositifs numériques de démocratie, l’objectif de cette encyclopédie étant d’abord celui de fournir les informations nécessaires à la participation du plus grand nombre à la vie de la cité.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;latelier-dans-le-cadre-de-odn&quot;&gt;L’atelier dans le cadre de ODN&lt;/h5&gt;
-
-&lt;p&gt;L’encyclopédie est en ligne mais le projet est encore en cours de lancement. Le but de ce premier atelier sera alors avant tout de présenter Débapédia afin de recueillir différents avis et conseils qui serviront à l’élaboration finale du site.&lt;/p&gt;
-
-&lt;p&gt;En particulier, les besoins sont les suivants :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Une piste envisagée est de présenter les arguments d’un débat donné sous forme d’un sommaire où chaque titre correspond à une section déroulante. Cette présentation est-elle suffisamment intuitive ? Comment l’améliorer ?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Dans cette optique, il serait judicieux de présenter, dans la version mobile du site, tous les titres et sous-titres d’une page sous forme de sections déroulantes. L’extension Mobile Frontend, qui permet justement d’afficher cette version mobile, ne propose malheureusement pas par défaut d’afficher les sous-titres sous forme de sections déroulantes, mais le permet pour les titres. Il s’agirait d’étendre cette fonction aux sous-titres en modifiant le code de Mobile Frontend, qui est écrit en langage PHP.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enfin, le logo principal du site, la bannière de la page d’accueil ainsi que différents logos représentant un argument pour, un argument contre et une objection sont à dessiner. L’aide d’un designer serait la bienvenue.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pour ceux qui seraient intéressés par le projet, RDV dimanche 18 septembre après-midi dans le cadre du quatrième Hackathon.&lt;/p&gt;
+        <title>Débat public</title>
+        <description>&lt;p&gt;Dispositif de démocratie participative institué par la loi et mis en œuvre par la Commission nationale du débat public (CNDP) sur les grands projets ou politiques dont elle est saisie en raison de leurs forts impacts sur l’environnement et l’aménagement du territoire. La Commission particulière du débat public (CPDP) qui a organisé le débat public pendant 4 à 6 mois établit le compte rendu de l’ensemble des échanges qui ont eu lieu, et la Commission nationale en tire un bilan. Les commisions sont neutres et ne donnent pas d’avis sur le projet soumis à examen public, mais publient, à l’issue du débat, leur compte rendu et bilan qui synthétisent les avis du public et des parties prenantes. Trois mois plus tard, le décideur doit rendre sa décision en explicitant ce qu’il prend ou non en compte du débat public.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 13 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//debapedia</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//debapedia</guid>
-        
-        <category>Logiciels</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/debat_public</link>
+        <guid isPermaLink="true">http://localhost:4000/debat_public</guid>
         
         
       </item>
     
       <item>
-        <title>theactivist.eu</title>
-        <description>&lt;p&gt;Créer une plate-forme donnant aux citoyens le pouvoir de concrétiser leur vision de société en les connectant avec d’autres qui partagent les memes idées dans leur quartier aussi bien qu’au niveau Européen, créant ainsi un mouvement d’Activistes capable d’agir à tous les niveaux en partant de chez soi.&lt;/p&gt;
-
-&lt;p&gt;Les media sociaux mettent en connection des gens qui habitent très loins mais souvent nous ne connaissons pas nos voisins avec lesquels nous partageons notre espace de vie et avec lesquels nous pourrions travailler à modifier ce qui ne va pas dans nos villes, dans nos pays ou en Europe. De là est née l’idée de créer une plate-forme capable de donner le pouvoir aux citoyens qui sont interessés à s’engager pour concrétiser leur vision de societé en les connectant avec d’autres qui partagent la meme vision dans leur quartier/ville et, en meme temps, au niveau Européen. Ceci avec le but de créer un mouvement de citoyens capable d’avoir un impact à tous les niveaux de pouvoir en Europe, en partant de chez nous, de nos villes!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;entretien-avec-pietro-de-matteis-porteur-du-projet&quot;&gt;Entretien avec Pietro De Matteis porteur du projet&lt;/h5&gt;
-
-&lt;h6 id=&quot;quest-ce-qui-ta-donn-envie-de-participer-au-hackathon-&quot;&gt;Qu’est-ce qui t’a donné envie de participer au hackathon ?&lt;/h6&gt;
-&lt;p&gt;J’ai décidé de participer per à cet Hackathon pour developper une nouvelle plateforme de democracie participative afin de relier le developement d’activites au niveau tres local aux grand defis de l’Europe d’aujourd’hui.&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-objectifs-avec-ce-projet-dans-le-cadre-&quot;&gt;Quels sont tes objectifs avec ce projet dans le cadre ?&lt;/h6&gt;
-&lt;p&gt;de ce hackathon et à plus long terme ? 
-J’espere que cet hackathon va nous aider à concretiser ce projet en nous appuyant sur la connassance technique des participants pour pouvoir le mettre en place au niveau Européen et à dispositions des citoyens qui veulent donner une nouvelle impulsion postive au projet européén.&lt;/p&gt;
-
-&lt;h6 id=&quot;quelles-tapes-as-tu-dj-franchies&quot;&gt;Quelles étapes as-tu déjà franchies?&lt;/h6&gt;
-&lt;p&gt;1) Definition du concept
-2) Recherche des mouvements qui sont interessés à l’utiliser
-3) Identification de plus de 400 personnes qui voudraient s’engager au niveau local partout en Europe.&lt;/p&gt;
-
-&lt;h6 id=&quot;quels-sont-tes-besoins-pour-avancer-dveloppeurs-graphistes-citoyens-motives-spcialistes-dun-domaine-etc-&quot;&gt;Quels sont tes besoins pour avancer (développeurs, graphistes, citoyens motivées, spécialistes d’un domaine etc.) ?&lt;/h6&gt;
-&lt;p&gt;Developpeurs capables d’integrer et adapter les specifications necessaires (certaines deja existantes);
-Graphistes: pour aider à donner à la plateforme une image simple mais attractive;
-Citoyens motivés: plus nous sommes, mieux c’est!&lt;/p&gt;
-
-&lt;h6 id=&quot;ce-qui-te-passe-par-la-tte-et-que-tu-veux-nous-communiquer-&quot;&gt;Ce qui te passe par la tête et que tu veux nous communiquer !&lt;/h6&gt;
-&lt;p&gt;Merci pour cette initiative!&lt;/p&gt;
+        <title>Concertation</title>
+        <description>&lt;p&gt;Un processus de construction collective de visions, d’objectifs, de projets communs, en vue d’agir ou de décider ensemble, qui repose sur un dialogue coopératif entre plusieurs parties prenantes et vise à construire de nouvelles coordinations autour d’un ou plusieurs objets problématiques.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://opendemocracynow.net//theactivist-eu</link>
-        <guid isPermaLink="true">http://opendemocracynow.net//theactivist-eu</guid>
-        
-        <category>Logiciels</category>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/concertation</link>
+        <guid isPermaLink="true">http://localhost:4000/concertation</guid>
         
         
       </item>
