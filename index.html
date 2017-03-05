@@ -29,7 +29,7 @@ customjs:
             {% for post in paginator.posts %}
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <a href="{{ post.url }}" style="color:#fff;font-size:1.8em">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" style="color:#fff;font-size:1.8em">{{ post.title }}</a>
               </div>
               <div class="panel-body">
                 {{ post.content }}
