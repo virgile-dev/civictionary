@@ -5,10 +5,10 @@
 
           {% include projet-modal.html %}
            <li><h4><a href="{{ site.baseurl }}">Définitions</a></h4></li>
-
-
-
-          {% capture posts %}
+           {% for post in site.posts %}
+            <li><a href="{{ site.baseurl }}{{  post.url  }}">{{ post.title }}</a></li>
+           {% endfor %}
+          <!-- {% capture posts %}
           {% for post in site.posts %}
             |{{ post.title }}#{{ post.url }}
           {% endfor %}
@@ -16,8 +16,8 @@
         {% assign sortedposts = posts | split: '|' | sort %}
         {% for post in sortedposts %}
             {% assign postitems = post | split: '#' %}
-            <li><a href="{{ site.baseurl }}/{{  postitems[1]  }}">{{  postitems[0]  }}</a></li>
-        {% endfor %}
+            <li><a href="{{  postitems[1]  }}">{{  postitems[0]  }}</a></li>
+        {% endfor %} -->
 
       </ul>
 
