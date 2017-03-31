@@ -10,7 +10,7 @@ title: Civictionary
 email: virgile.deville@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Petit précis de langage à l'usage des néophytes de la civic tech, du gouvernement ouvert et de la démocratie participative
-baseurl: "/civictionnary" # the subpath of your site, e.g. /blog
+baseurl: "/civictionary" # the subpath of your site, e.g. /blog
 url: "https://virgile-dev.github.io/" # the base hostname & protocol for your site
 twitter_username:
 github_username:
