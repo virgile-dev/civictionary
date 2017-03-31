@@ -9,7 +9,7 @@
 
 3. Pour le contenu du fichier suivez la structure suivante
 
-``---
+```---
 layout: post
 comments: true
 title:  "Mot à définir"
@@ -18,7 +18,8 @@ active: true
 source1: Titre de la source
 source-url1: http://url-de-la-source.fr
 ---
-
 Contenu de la définition que vous pouvez formater avec du markdown.
-``
+```
+
+
 4. Une fois tout cela complété faites une pull request
