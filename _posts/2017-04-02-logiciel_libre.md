@@ -12,11 +12,11 @@ source-url1: https://www.gnu.org/philosophy/free-sw.fr.html
 
 Ainsi, « logiciel libre » fait référence à la liberté, pas au prix (pour comprendre ce concept, vous devez penser à « liberté d'expression », pas à « entrée libre »). 
 
-Les quatre libertés essentielles
+**Les quatre libertés essentielles**
 
 Un programme est un logiciel libre si vous, en tant qu'utilisateur de ce programme, avez les quatre libertés essentielles :
 
-* la liberté d'exécuter le programme comme vous voulez, pour n'importe quel usage (liberté 0) ;
-* la liberté d'étudier le fonctionnement du programme, et de le modifier pour qu'il effectue vos tâches informatiques comme vous le souhaitez (liberté 1) ; l'accès au code source est une condition nécessaire ;
-* la liberté de redistribuer des copies, donc d'aider votre voisin (liberté 2) ;
-* la liberté de distribuer aux autres des copies de vos versions modifiées (liberté 3) ; en faisant cela, vous donnez à toute la communauté une possibilité de profiter de vos changements ; l'accès au code source est une condition nécessaire.
+* L liberté d'exécuter le programme comme vous voulez, pour n'importe quel usage (liberté 0) ;
+* La liberté d'étudier le fonctionnement du programme, et de le modifier pour qu'il effectue vos tâches informatiques comme vous le souhaitez (liberté 1) ; l'accès au code source est une condition nécessaire ;
+* La liberté de redistribuer des copies, donc d'aider votre voisin (liberté 2) ;
+* La liberté de distribuer aux autres des copies de vos versions modifiées (liberté 3) ; en faisant cela, vous donnez à toute la communauté une possibilité de profiter de vos changements ; l'accès au code source est une condition nécessaire.
