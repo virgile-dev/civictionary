@@ -6,6 +6,7 @@ tag:
 active: true
 source1: Free Software Foundation
 source-url1: https://www.gnu.org/philosophy/free-sw.fr.html
+sourcedetails1: Traduction par Frédéric Couchet, Karl Pradène
 ---
 
 **Un programme est un logiciel libre si vous, en tant qu'utilisateur de ce programme, avez les quatre libertés essentielles :**
