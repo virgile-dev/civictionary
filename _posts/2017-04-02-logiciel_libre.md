@@ -1,9 +1,15 @@
 layout: post
+
 comments: true
+
 title:  "Logiciel Libre"
+
 tag:
+
 active: true
+
 source1: Free Software Foundation
+
 source-url1: https://www.gnu.org/philosophy/free-sw.fr.html
 
 ---
