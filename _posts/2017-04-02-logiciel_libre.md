@@ -4,8 +4,10 @@ title:  "Logiciel Libre"
 tag:
 active: true
 source1: Free Software Foundation
-source-url1: http://url-de-la-source.fr
+source-url1: https://www.gnu.org/philosophy/free-sw.fr.html
+
 ---
+
 **« Logiciel libre » [free software]** désigne des logiciels qui respectent la **liberté des utilisateurs**. En gros, cela veut dire que les utilisateurs ont la liberté d'exécuter, copier, distribuer, étudier, modifier et améliorer ces logiciels. 
 
 Ainsi, « logiciel libre » fait référence à la liberté, pas au prix (pour comprendre ce concept, vous devez penser à « liberté d'expression », pas à « entrée libre »). 
