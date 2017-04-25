@@ -2,21 +2,9 @@
 
 layout: default
 form: "true"
-customjs:
-
- - /js/jekyll-search.min.js
-
- - /js/fileinput.min.js
-
- - /js/locales/fr.js
-
 ---
 <div class="container">
-  <div>
-    <div class="recherche">
-    <input type="text" id="search-input" class="form-control2" placeholder="rechercher un projet..."><i class="fa fa-search"></i>
-    <ul style="font-weight:600" id="results-container"></ul>
-  </div>
+  
       <div class="row">
         <div class="col-md-9">
             <hr>
@@ -65,7 +53,63 @@ customjs:
             </div>
 
           <div class="col-md-3 col-sm-12 col-sm-12">
-              {% include sidebar.html %}
+
+
+    <div class="well_list">
+
+      <div class="well_list-nav">
+
+<p>
+
+</p>
+
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Proposer une définition</h4>
+      </div>
+      <div class="modal-body">
+       {% include form.html %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+           <li><h4><a href="{{ site.baseurl }}">Définitions</a></h4></li>
+           {% for post in site.posts %}
+            <li><a href="{{ site.baseurl }}{{  post.url  }}">{{ post.title }}</a></li>
+           {% endfor %}
+          <!-- {% capture posts %}
+          {% for post in site.posts %}
+            |{{ post.title }}#{{ post.url }}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sortedposts = posts | split: '|' | sort %}
+        {% for post in sortedposts %}
+            {% assign postitems = post | split: '#' %}
+            <li><a href="{{  postitems[1]  }}">{{  postitems[0]  }}</a></li>
+        {% endfor %} -->
+
+      </ul>
+
+    </div>
+    </div>
+
+  </div>
+
+  </div>
+
+
           </div>
         </div>
 
